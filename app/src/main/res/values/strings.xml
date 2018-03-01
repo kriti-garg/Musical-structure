@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="category_library">Library</string>
+    <string name="category_playing">Now Playing</string>
+    <string name="category_playlist">Playlists</string>
+    <string name="category_payment">Payment</string>
+    <string name="lib_text">This Activity describes all the songs.</string>
+    <string name="pay_text">This Activity describes all the payment details</string>
+    <string name="play_text">This Activity describes the song currently playing.</string>
+    <string name="playlist_text">This Activity describes all the playlists </string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kriti.musicalstructure.MainActivity">
+
+    <TextView
+        android:id="@+id/library"
+        style="@style/CategoryStyle"
+        android:layout_margin="10dp"
+        android:background="@color/category_library"
+        android:text="@string/category_library"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/playing"
+        style="@style/CategoryStyle"
+        android:layout_margin="10dp"
+        android:background="@color/category_playing"
+        android:text="@string/category_playing"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/playlist"
+        style="@style/CategoryStyle"
+        android:layout_margin="10dp"
+        android:background="@color/category_playlist"
+        android:text="@string/category_playlist"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/payment"
+        style="@style/CategoryStyle"
+        android:layout_margin="10dp"
+        android:background="@color/category_payment"
+        android:text="@string/category_payment"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
