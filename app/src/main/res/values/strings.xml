@@ -5,7 +5,7 @@
     <string name="category_playlist">Playlists</string>
     <string name="category_payment">Payment</string>
     <string name="lib_text">This Activity describes all the songs.</string>
-    <string name="pay_text">This Activity describes all the payment details</string>
+    <string name="pay_text">This Activity describes all the payment details of the songs in their library which the user wants to download and listen offline. It describes about the premium for which the user has to pay some required amount.</string>
     <string name="play_text">This Activity describes the song currently playing.</string>
     <string name="playlist_text">This Activity describes all the playlists </string>
 </resources>
