@@ -5,9 +5,10 @@
     <string name="category_playlist">Playlists</string>
     <string name="category_payment">Payment</string>
     <string name="lib_text">This Activity describes all the songs.</string>
-    <string name="pay_text">This Activity describes all the payment details of the songs
-        in their library which the user wants to download and listen offline.
-        It describes about the premium for which the user has to pay some required amount.
+    <string name="pay_text">The Android Pay API offers a quick and easy path to enable secure,
+        one touch payments in the app using the existing payment infrastructure.Once you
+        complete the integration with your app's payment processing flow, Android users will
+        enjoy a rapid ,consistent checkout process with Android Pay.
     </string>
     <string name="play_text">This Activity describes the song currently playing.</string>
     <string name="playlist_text">This Activity describes all the playlists </string>
