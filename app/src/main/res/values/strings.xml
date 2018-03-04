@@ -1,15 +1,22 @@
 <resources>
     <string name="app_name">Musical Structure</string>
-    <string name="category_library">Library</string>
+    <string name="category_library">Main Activity</string>
     <string name="category_playing">Now Playing</string>
     <string name="category_playlist">Playlists</string>
     <string name="category_payment">Payment</string>
-    <string name="lib_text">This Activity describes all the songs.</string>
-    <string name="pay_text">The Android Pay API offers a quick and easy path to enable secure,
-        one touch payments in the app using the existing payment infrastructure.Once you
-        complete the integration with your app's payment processing flow, Android users will
-        enjoy a rapid ,consistent checkout process with Android Pay.
+    <string name="lib_text">This Activity describes all the songs.The songs in your own library will also be
+    displayed in this activity.This activity contains the Playlists,Albums. We can go to Payments
+    Activity by clicking on the respective button.</string>
+    <string name="pay_text">We can add a Pay with Paytm button to an our Android App by using Paytm
+        Mobile Payment Libraries(i.e MPL). It will enable one touch and secure payment infrastructure
+        to your app.After payment control it will be back to the app.
     </string>
-    <string name="play_text">This Activity describes the song currently playing.</string>
-    <string name="playlist_text">This Activity describes all the playlists </string>
+    <string name="play_text">This Activity describes the song currently playing.We can go to our library
+    of songs, the Playlists and the Payments Activity.</string>
+    <string name="playlist_text">This Activity describes all the playlists which are their in the
+    Library or one can add it too.</string>
+    <string name="lay_pay">Payment Activity</string>
+    <string name="lay_lib">Main Activity</string>
+    <string name="lay_play">Now Playing Activity</string>
+    <string name="lay_playlist">Playlist Activity</string>
 </resources>

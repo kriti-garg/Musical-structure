@@ -11,7 +11,7 @@ public class LibraryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_library);
+        setContentView(R.layout.main_activity);
 
         TextView buy = findViewById(R.id.lib1);
         buy.setOnClickListener(new View.OnClickListener() {

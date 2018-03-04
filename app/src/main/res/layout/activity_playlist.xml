@@ -5,6 +5,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.kriti.musicalstructure.LibraryActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lay_playlist"
+        android:textColor="@color/category_playlist"
+        android:textAllCaps="true"
+        android:textSize="22dp"
+        android:layout_margin="5dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -12,6 +20,7 @@
         android:layout_margin="5dp"
         android:text="@string/playlist_text"
         android:textColor="#000000"
+        android:labelFor="@id/playlist1"
         android:textSize="20dp" />
 
     <Button
@@ -19,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="GoTo Library" />
+        android:text="GoTo MainActivity" />
 
     <Button
         android:id="@+id/playlist2"

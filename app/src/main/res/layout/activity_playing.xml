@@ -5,6 +5,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.kriti.musicalstructure.LibraryActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lay_play"
+        android:textColor="@color/category_payment"
+        android:textAllCaps="true"
+        android:labelFor="@id/play1"
+        android:textSize="22dp"
+        android:layout_margin="5dp"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -19,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="GoTo Library" />
+        android:text="GoTo MainActivity" />
 
     <Button
         android:id="@+id/play2"
