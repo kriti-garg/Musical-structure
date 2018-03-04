@@ -5,7 +5,39 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.kriti.musicalstructure.LibraryActivity">
-    <TextView
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/play1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#C6FF00"
+        android:text="MainActivity" />
+
+    <Button
+        android:id="@+id/play2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#E91E63"
+        android:text="Playlists" />
+
+    <Button
+        android:id="@+id/play3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FF9800"
+        android:text="Payments" />
+
+</LinearLayout>
+
+<TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/lay_play"
@@ -24,26 +56,6 @@
         android:textColor="#000000"
         android:textSize="20dp" />
 
-    <Button
-        android:id="@+id/play1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="GoTo MainActivity" />
-
-    <Button
-        android:id="@+id/play2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="GoTo Playlist" />
-
-    <Button
-        android:id="@+id/play3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="GoTo Payment" />
 
 
 </LinearLayout>
