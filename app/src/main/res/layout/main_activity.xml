@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.kriti.musicalstructure.LibraryActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#AB47BC"
-            android:text="Now Playing" />
+            android:text="@string/category_playing" />
 
         <Button
             android:id="@+id/lib2"
@@ -25,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#E91E63"
-            android:text="Playlists" />
+            android:text="@string/category_playlist" />
 
         <Button
             android:id="@+id/lib3"
@@ -33,20 +34,19 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#FF9800"
-            android:text="Payments" />
+            android:text="@string/payments" />
 
     </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/lay_lib"
-        android:labelFor="@id/lib1"
-        android:textColor="@color/category_library"
-        android:textAllCaps="true"
-        android:textSize="22dp"
         android:layout_margin="5dp"
-        />
+        android:labelFor="@id/lib1"
+        android:text="@string/lay_lib"
+        android:textAllCaps="true"
+        android:textColor="@color/category_library"
+        android:textSize="22sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -55,8 +55,6 @@
         android:text="@string/lib_text"
         android:textColor="#000000"
         android:textSize="20sp" />
-
-
 
 
 </LinearLayout>

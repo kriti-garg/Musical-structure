@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <color name="primary_color">#4A312A</color>
-    <color name="primary_dark_color">#2F1D1A</color>
-    <color name="tan_background">#FFF7DA</color>
     <color name="category_library">#388E3C</color>
     <color name="category_playing">#FF9800</color>
     <color name="category_playlist">#00796B</color>
     <color name="category_payment">#3949AB</color>
+    <color name="black">#000000</color>
 </resources>

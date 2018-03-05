@@ -8,38 +8,56 @@
     tools:context="com.kriti.musicalstructure.MainActivity">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:labelFor="@id/play1"
+        android:text="@string/mainactivity_label"
+        android:textAllCaps="true"
+        android:textColor="@color/category_payment"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/mainactivity_description"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
         android:id="@+id/library"
         style="@style/CategoryStyle"
-        android:padding="10dp"
         android:layout_weight="1"
         android:background="@color/category_library"
+        android:padding="10dp"
         android:text="@string/category_library"
         android:textSize="20sp" />
 
     <TextView
         android:id="@+id/playing"
         style="@style/CategoryStyle"
-        android:padding="10dp"
         android:layout_weight="1"
         android:background="@color/category_playing"
+        android:padding="10dp"
         android:text="@string/category_playing"
         android:textSize="20sp" />
 
     <TextView
         android:id="@+id/playlist"
         style="@style/CategoryStyle"
-        android:padding="10dp"
         android:layout_weight="1"
         android:background="@color/category_playlist"
+        android:padding="10dp"
         android:text="@string/category_playlist"
         android:textSize="20sp" />
 
     <TextView
         android:id="@+id/payment"
         style="@style/CategoryStyle"
-        android:padding="10dp"
         android:layout_weight="1"
         android:background="@color/category_payment"
+        android:padding="10dp"
         android:text="@string/category_payment"
         android:textSize="20sp" />
 

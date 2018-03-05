@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#C6FF00"
-            android:text="MainActivity" />
+            android:text="@string/category_library" />
 
         <Button
             android:id="@+id/pay2"
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#AB47BC"
-            android:text="Now Playing" />
+            android:text="@string/category_playing" />
 
         <Button
             android:id="@+id/pay3"
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#E91E63"
-            android:text="Playlists" />
+            android:text="@string/category_playlist" />
 
     </LinearLayout>
 
@@ -44,7 +44,7 @@
         android:text="@string/lay_pay"
         android:textAllCaps="true"
         android:textColor="@color/category_payment"
-        android:textSize="22dp" />
+        android:textSize="22sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -52,10 +52,8 @@
         android:layout_margin="5dp"
         android:labelFor="@id/pay1"
         android:text="@string/pay_text"
-        android:textColor="#000000"
-        android:textSize="20dp" />
-
-
+        android:textColor="@color/black"
+        android:textSize="20sp" />
 
 
 </LinearLayout>

@@ -5,57 +5,55 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.kriti.musicalstructure.LibraryActivity">
+
     <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
-
-
-    <Button
-        android:id="@+id/playlist1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="#C6FF00"
-        android:text="MainActivity" />
-
-    <Button
-        android:id="@+id/playlist2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="#AB47BC"
-        android:text="Now Playing" />
-
-    <Button
-        android:id="@+id/playlist3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="#FF9800"
-        android:text="Payments" />
-
-</LinearLayout>
-
-<TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/playlist1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#C6FF00"
+            android:text="@string/category_library" />
+
+        <Button
+            android:id="@+id/playlist2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#AB47BC"
+            android:text="@string/category_playing" />
+
+        <Button
+            android:id="@+id/playlist3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF9800"
+            android:text="@string/payments" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
         android:text="@string/lay_playlist"
-        android:textColor="@color/category_playlist"
         android:textAllCaps="true"
-        android:textSize="22dp"
-        android:layout_margin="5dp"/>
+        android:textColor="@color/category_playlist"
+        android:textSize="22sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="@string/playlist_text"
-        android:textColor="#000000"
         android:labelFor="@id/playlist1"
-        android:textSize="20dp" />
-
-
-
+        android:text="@string/playlist_text"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
 
 </LinearLayout>

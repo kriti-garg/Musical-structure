@@ -5,48 +5,48 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.kriti.musicalstructure.LibraryActivity">
-   <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
 
-
-    <Button
-        android:id="@+id/play1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="#C6FF00"
-        android:text="MainActivity" />
-
-    <Button
-        android:id="@+id/play2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="#E91E63"
-        android:text="Playlists" />
-
-    <Button
-        android:id="@+id/play3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="#FF9800"
-        android:text="Payments" />
-
-</LinearLayout>
-
-<TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/lay_play"
-        android:textColor="@color/category_payment"
-        android:textAllCaps="true"
-        android:labelFor="@id/play1"
-        android:textSize="22dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/play1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#C6FF00"
+            android:text="@string/category_library" />
+
+        <Button
+            android:id="@+id/play2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#E91E63"
+            android:text="@string/category_playlist" />
+
+        <Button
+            android:id="@+id/play3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF9800"
+            android:text="@string/payments" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        />
+        android:labelFor="@id/play1"
+        android:text="@string/lay_play"
+        android:textAllCaps="true"
+        android:textColor="@color/category_payment"
+        android:textSize="22sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -54,8 +54,7 @@
         android:layout_margin="5dp"
         android:text="@string/play_text"
         android:textColor="#000000"
-        android:textSize="20dp" />
-
+        android:textSize="20sp" />
 
 
 </LinearLayout>

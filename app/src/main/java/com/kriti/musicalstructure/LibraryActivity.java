@@ -13,28 +13,28 @@ public class LibraryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
 
-        TextView buy = findViewById(R.id.lib1);
-        buy.setOnClickListener(new View.OnClickListener() {
+        TextView nowPlayingButton = findViewById(R.id.lib1);
+        nowPlayingButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent buyIntent = new Intent(LibraryActivity.this, PlayingActivity.class);
-                startActivity(buyIntent);
+                Intent playingIntent = new Intent(LibraryActivity.this, PlayingActivity.class);
+                startActivity(playingIntent);
             }
         });
-        TextView buy1 = findViewById(R.id.lib2);
-        buy1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-                Intent buyIntent1 = new Intent(LibraryActivity.this, PlaylistActivity.class);
-                startActivity(buyIntent1);
-            }
-        });
-        TextView buy2 = findViewById(R.id.lib3);
-        buy2.setOnClickListener(new View.OnClickListener() {
+        TextView playlistButton = findViewById(R.id.lib2);
+        playlistButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent buyIntent2 = new Intent(LibraryActivity.this, PaymentActivity.class);
-                startActivity(buyIntent2);
+                Intent playlistIntent = new Intent(LibraryActivity.this, PlaylistActivity.class);
+                startActivity(playlistIntent);
+            }
+        });
+        final TextView paymentButton = findViewById(R.id.lib3);
+        paymentButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent paymentIntent = new Intent(LibraryActivity.this, PaymentActivity.class);
+                startActivity(paymentIntent);
             }
         });
     }

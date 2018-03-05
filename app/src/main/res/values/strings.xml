@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">Musical Structure</string>
+    <string name="mainactivity_description">This Activity is the startup activity of the App, which contains links to all the other activities present in the App, like Main Activity, Playing Now Activity, Playlists and Payments.</string>
+    <string name="mainactivity_label">Startup Activity</string>
     <string name="category_library">Main Activity</string>
     <string name="category_playing">Now Playing</string>
     <string name="category_playlist">Playlists</string>
     <string name="category_payment">Payment</string>
+    <string name="payments">Payments</string>
+
     <string name="lib_text">This Activity describes all the songs.The songs in your own library will also be
     displayed in this activity.This activity contains the Playlists,Albums. We can go to Payments
     Activity by clicking on the respective button.</string>
