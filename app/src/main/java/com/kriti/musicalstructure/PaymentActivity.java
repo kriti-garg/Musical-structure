@@ -12,28 +12,28 @@ public class PaymentActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
-        TextView buy = findViewById(R.id.pay1);
-        buy.setOnClickListener(new View.OnClickListener() {
+        TextView library = findViewById(R.id.pay1);
+        library.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent buyIntent = new Intent(PaymentActivity.this, LibraryActivity.class);
-                startActivity(buyIntent);
+                Intent libIntent = new Intent(PaymentActivity.this, LibraryActivity.class);
+                startActivity(libIntent);
             }
         });
-        TextView buy1 = findViewById(R.id.pay2);
-        buy1.setOnClickListener(new View.OnClickListener() {
+        TextView play = findViewById(R.id.pay2);
+        play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent buyIntent1 = new Intent(PaymentActivity.this, PlayingActivity.class);
-                startActivity(buyIntent1);
+                Intent playIntent = new Intent(PaymentActivity.this, PlayingActivity.class);
+                startActivity(playIntent);
             }
         });
-        TextView buy2 = findViewById(R.id.pay3);
-        buy2.setOnClickListener(new View.OnClickListener() {
+        TextView payment = findViewById(R.id.pay3);
+        payment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent buyIntent2 = new Intent(PaymentActivity.this, PlaylistActivity.class);
-                startActivity(buyIntent2);
+                Intent paymentIntent = new Intent(PaymentActivity.this, PlaylistActivity.class);
+                startActivity(paymentIntent);
             }
         });
     }
